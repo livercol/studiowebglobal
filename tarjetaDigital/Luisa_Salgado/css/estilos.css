@@ -1,0 +1,69 @@
+body{
+    background: url(../img/fondo_luisa.png);
+    background-size: 100% ;
+}
+
+@font-face{
+
+    font-family:Florilane;
+    src: url(Florilane_Cardillac.ttf);
+
+}
+
+h1{
+    font-size: 50px;
+    font-family:Florilane;
+    align-items:center;
+}
+
+
+h3{
+    font-size: 35px;
+    font-family:Florilane;
+    align-items:center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.container{
+    height: 100%;
+    flex-basis:100%;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.container section{
+    margin:5px;
+    padding:5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container .container-iconos-redes{
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+@media (max-width:400px) {
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .container .container-iconos-redes{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
